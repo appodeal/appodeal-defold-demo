@@ -3,14 +3,14 @@
 This is official Appodeal Extenstion for Defold with iOS and Android support.
 
 Included Appodeal SDK:
-iOS: v.2.1.7
-Android: v.2.1.7
++ iOS: v.2.1.7
++ Android: v.2.1.7
 
 Requirements:
 
-Defold Editor or Defold Editor 2 Preview
-Min Android API Level: 14 and above
-Min iOS Target: iOS 8.0 and above
++ Defold Editor or Defold Editor 2 Preview
++ Min Android API Level: 14 and above
++ Min iOS Target: iOS 8.0 and above
 
 Download: [![](https://img.shields.io/badge/version-2.1.7-green.svg)](https://s3.eu-central-1.amazonaws.com/appodeal-defold/Appodeal-Defold-2.1.7-141117-all.zip)
 
