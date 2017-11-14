@@ -1,0 +1,16 @@
+name: "Appodeal"
+
+platforms:
+    arm64-ios:
+        context:
+            frameworks:  ["AdSupport", "AudioToolbox", "AVFoundation", "CFNetwork", "CoreGraphics", "CoreImage", "CoreLocation", "CoreMedia", "CoreMotion", "CoreTelephony", "EventKitUI", "GLKit", "JavaScriptCore", "ImageIO", "MediaPlayer", "MessageUI", "MobileCoreServices", "QuartzCore", "Security", "StoreKit", "SystemConfiguration", "Twitter", "UIKit", "WebKit"]
+            flags:       ["-stdlib=libc++"]
+            linkFlags:   ["-ObjC"]
+            libs:        ["z", "c++", "sqlite3", "xml2.2"]
+
+    armv7-ios:
+        context:
+            frameworks:  ["AdSupport", "AudioToolbox", "AVFoundation", "CFNetwork", "CoreGraphics", "CoreImage", "CoreLocation", "CoreMedia", "CoreMotion", "CoreTelephony", "EventKitUI", "GLKit", "JavaScriptCore", "ImageIO", "MediaPlayer", "MessageUI", "MobileCoreServices", "QuartzCore", "Security", "StoreKit", "SystemConfiguration", "Twitter", "UIKit", "WebKit"]
+            flags:       ["-stdlib=libc++"]
+            linkFlags:   ["-ObjC"]
+            libs:        ["z", "c++", "sqlite3", "xml2.2"]
